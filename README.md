@@ -12,7 +12,7 @@ manifests — read the file to know the version.
   aarch64 SDK images by rebuilding it from upstream Linux source.
 
   ```bash
-  curl -fsSL https://raw.githubusercontent.com/<owner>/scriptools/master/rebuild-tun-from-mainline.sh \
+  curl -fsSL https://raw.githubusercontent.com/goliajp/scriptools/master/rebuild-tun-from-mainline.sh \
     -o /tmp/rebuild-tun-from-mainline.sh
   sudo bash /tmp/rebuild-tun-from-mainline.sh        # interactive
   sudo bash /tmp/rebuild-tun-from-mainline.sh -y     # silent install (idempotent)
